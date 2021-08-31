@@ -1,0 +1,6 @@
+:root{
+	--title-color:hsl(var(--hue-color),8%,15%);
+}
+body.dark-theme{
+	--title-color:hsl(var(--hue-color),8%,95%);
+}
