@@ -1094,7 +1094,7 @@ border-radius: .5rem;
     border-radius: .5rem;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: var(--scroll-thumb-color);
+    background-color: var(--title-color);
     border-radius: .5rem;
 }
 ::-webkit-scrollbar-thumb:hover{
