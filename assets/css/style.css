@@ -1363,12 +1363,12 @@ border-radius: .5rem;
         right: 18%;
     }
     .portfolio_video{
-        max-width: 298px;
-        min-height: 199px;
+        max-width: 100%;
+        min-height: auto;
     }
     .porfolio_img{
-        max-width: 298px;
-        min-height: 199px;
+        max-width: 100%;
+        min-height: auto;
     }
 }
 /* STYLE MIN */
@@ -1395,12 +1395,12 @@ border-radius: .5rem;
         right: 42%;
 }
 .portfolio_video{
-    max-width: 298px;
-    min-height: 199px;
+    max-width: 100%;
+    min-height: auto;
 }
 .porfolio_img{
-    max-width: 298px;
-    min-height: 199px;
+    max-width: 100%;
+    min-height: auto;
 }
 }
  /* STYLE MEDIUM */
@@ -1447,12 +1447,12 @@ border-radius: .5rem;
         right: 0px;
     }
     .portfolio_video{
-        max-width: 550px;
-        min-height: 406px;
+        max-width: 100%;
+        min-height: auto;
     }
     .porfolio_img{
-        max-width: 550px;
-        min-height: 406px;
+        max-width: 100%;
+        min-height: auto;
 
     }
  }
