@@ -553,6 +553,7 @@ img{
     transform: translateY(.25rem);
 }
 .home_scroll-mouse{
+    color: var(--title-color);
     font-size: 2rem;
 }
 .home_scroll-name{
