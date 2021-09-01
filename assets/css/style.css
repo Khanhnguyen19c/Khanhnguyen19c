@@ -189,6 +189,7 @@ img{
     overflow: hidden;
     animation: spin 10s linear infinite;
 } */
+
 /*preloader*/
 .preloader {
     position: fixed;
@@ -197,7 +198,7 @@ img{
     width: 100%;
     height: 100%;
     z-index: 1500;
-    background-color: var(--body-color);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,7 +218,7 @@ img{
   .preloader .box div {
     width: 15px;
     height: 15px;
-    background-color: var(--skin-color);
+    background-color: var(--title-color);
     border-radius: 50%;
     animation: loaderAni 1s ease infinite;
   }
@@ -238,6 +239,7 @@ img{
       transform: translateY(-30px);
     }
   }
+  
   
 @keyframes zommInOut{
     0%,100%{
@@ -1363,6 +1365,10 @@ border-radius: .5rem;
         max-width: 298px;
         min-height: 199px;
     }
+    .porfolio_img{
+        max-width: 298px;
+        min-height: 199px;
+    }
 }
 /* STYLE MIN */
 @media screen and (min-width:380px) {
@@ -1388,6 +1394,10 @@ border-radius: .5rem;
         right: 42%;
 }
 .portfolio_video{
+    max-width: 298px;
+    min-height: 199px;
+}
+.porfolio_img{
     max-width: 298px;
     min-height: 199px;
 }
@@ -1418,14 +1428,14 @@ border-radius: .5rem;
          justify-content: center;
      }
      .home_img .light{
-        max-width: 85%; position: absolute; top: 6%; left: -79%; transform: rotate(48deg);
+        max-width: 85%; position: absolute; top: 6%; left: -66%; transform: rotate(48deg);
     }
     .home_img .lamp{
         max-width: 35%;
         position: absolute;
         top: -37%;
-        left: -18%;
-        transform: rotate(44deg);
+        left: 0%;
+        transform: rotate(47deg);
     }
     .style-switcher{
         right: 0%;
