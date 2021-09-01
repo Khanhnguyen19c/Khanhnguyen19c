@@ -776,7 +776,7 @@ cursor: pointer;
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--first-color);
+    background-color: var(--title-color);
     transform: translate(6px,-15px);
 }
 .qualification [data-content]{
@@ -874,8 +874,15 @@ border-radius: .5rem;
 .portfolio_content{
     padding: 0 1.5rem;
 }
-.portfolio_img{
-    width: 265px;
+.porfolio_img {
+    max-width: 610px;
+    min-height: 406px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+.portfolio_video{
+    max-width: 610px;
+    min-height: 406px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -916,6 +923,9 @@ border-radius: .5rem;
 .swiper-pagination-bullet{
     outline: none;
 }
+
+
+
 /* ===========PROJECT============ */
 .project{
     text-align: center;
@@ -1349,6 +1359,10 @@ border-radius: .5rem;
     .dk-footer-form button[type=submit] {
         right: 18%;
     }
+    .portfolio_video{
+        max-width: 298px;
+        min-height: 199px;
+    }
 }
 /* STYLE MIN */
 @media screen and (min-width:380px) {
@@ -1373,6 +1387,10 @@ border-radius: .5rem;
     .dk-footer-form button[type=submit] {
         right: 42%;
 }
+.portfolio_video{
+    max-width: 298px;
+    min-height: 199px;
+}
 }
  /* STYLE MEDIUM */
  @media screen and (min-width:568px){
@@ -1388,7 +1406,6 @@ border-radius: .5rem;
      }
      .about_container,
      .skills_container,
-     .portfolio_content,
      .project_container,
      .contact_container,
      .footer_container,
@@ -1417,6 +1434,15 @@ border-radius: .5rem;
     }
     .dk-footer-form button[type=submit] {
         right: 0px;
+    }
+    .portfolio_video{
+        max-width: 550px;
+        min-height: 406px;
+    }
+    .porfolio_img{
+        max-width: 550px;
+        min-height: 406px;
+
     }
  }
  @media screen and (min-width:600px) {
@@ -1534,6 +1560,10 @@ border-radius: .5rem;
     .portfolio_content{
         align-items: center;
     }
+    .portfolio_content
+   {
+       grid-template-columns: repeat(2,1fr);
+   }
     .project{
         text-align: initial;
     }
