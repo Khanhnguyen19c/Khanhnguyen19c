@@ -10,7 +10,6 @@
 
 ```JAVA
 package MyProfile;
-
    private static String Name;
 	    private static int Age;
 	    private static String Location;
