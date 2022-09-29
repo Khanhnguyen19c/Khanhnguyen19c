@@ -22,27 +22,6 @@ namespace Profile
 		Main::$_age = $age;
 		Main::$_location = $location;
 		Main::$_skill = $skill;
-```JAVA
-package MyProfile;
-   private static String Name;
-	    private static int Age;
-	    private static String Location;
-	    private static String []Skill;
-	    
-	    Profile(){
-		    Name = new String("");
-			Age = 22;
-			Location = new String("");
-			Skill = new String [200];
-	    }
-	     public static function getProfile (){
-	    	return [
-			Main::$_name,
-			Main::$_age,
-			Main::$_location,
-			Main::$_skill
-		],
-	    };
 
 ## <p align="center">You can reach me at 🌹</p>
 
