@@ -8,6 +8,20 @@
 
 <h2 align="center">About me</h2>
 
+```C#
+namespace Profile
+{
+    class Main
+    {
+	    protected static $_name = 'Nguyễn Duy Khánh';
+	    protected static $_age = '22';
+	    protected static $_location = 'Vĩnh Long';
+	    protected static $_skill = 'PHP, Laravel, Livewire, HTML5, CSS, JavaScript, Go Lang';
+	    public static function myProfile ($name, $age, $location, $skill){
+	    	Main::$_name = $name;
+		Main::$_age = $age;
+		Main::$_location = $location;
+		Main::$_skill = $skill;
 ```JAVA
 package MyProfile;
    private static String Name;
@@ -21,40 +35,14 @@ package MyProfile;
 			Location = new String("");
 			Skill = new String [200];
 	    }
-	    public Profile (String Name, int Age, String Location, String []Skill){
-	    	Profile.Name = Name;
-	    	Profile.Age = Age;
-	    	Profile.Location = Location;
-	    	Profile.Skill = Skill;
-	    }
-	    public Profile(Profile pf) {
-	    	Profile.Name = pf.Name;
-	    	Profile.Age = pf.Age;
-	 		Profile.Location = pf.Location;
-	 		Profile.Skill = pf.Skill;
-	    }
-	    public void set() {
-	    	Name= "Nguyễn Duy Khánh";
-	    	Age = 22;
-	    	Location = "Bình Tân Vĩnh Long";
-	    	Skill = new String[]{"Java", "PHP", "Laravel", "Livewire", "HTML5", "CSS3", "JavaScript", "Java"};
-	    }
-	    public void get() {
-		System.out.println("========== Thông tin bản thân ==========");
-		System.out.println("Họ tên: "+ Profile.Name);
-		System.out.println("Tuổi tác: "+ Profile.Age);
-		System.out.println("Quê quán: "+ Profile.Location);
-		System.out.printf("Skill: ");
-		for(int i = 0; i< Skill.length ;i++) {
-			System.out.printf(Profile.Skill[i] +", ");
-		}
-	} 
-	    public static void main(String[] args) {
-		   	Profile pf = new Profile();
-		   	pf.set();
-		   	pf.get();
-	    }
-	 }
+	     public static function getProfile (){
+	    	return [
+			Main::$_name,
+			Main::$_age,
+			Main::$_location,
+			Main::$_skill
+		],
+	    };
 
 ## <p align="center">You can reach me at 🌹</p>
 
